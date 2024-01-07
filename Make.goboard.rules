@@ -1,0 +1,8 @@
+# rules that are specific to the 2057-ICE40HX4K-TQ144-breakout board
+# for arachne, set DEVICE = 8k
+# for nextpnr, set DEVICE = hx8k
+
+DEVICE		= hx1k
+PACKAGE		= vq100
+FLASH_PROG	= iceprog -d i:0x0403:0x6010:0 
+PINMAP		= pinmap-goboard.pcf

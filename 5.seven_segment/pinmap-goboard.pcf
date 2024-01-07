@@ -1,0 +1,19 @@
+# ------------ User Leds ------------------------------------------------------
+set_io o_LED_1  56
+
+# ------------ User push-buttons ----------------------------------------------
+set_io i_Switch_1  53
+set_io i_Switch_2  51
+
+
+# -------------------------- SYSTEM CLOCK ------------------------------------
+set_io i_Clk 15
+
+# ------------ 7 segments -----------------------------------------------------
+set_io o_Segment2_A  100
+set_io o_Segment2_B  99
+set_io o_Segment2_C  97
+set_io o_Segment2_D  95
+set_io o_Segment2_E  94
+set_io o_Segment2_F  8
+set_io o_Segment2_G  96
